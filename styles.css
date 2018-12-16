@@ -1,0 +1,25 @@
+table tr th {
+    font-weight: bold;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+/* for first td in table (for contact name) */
+td:nth-child(3) {
+    width: 16%;
+}
+
+/* for buttons: favorite, edit, delete */
+td:nth-child(6) {
+    text-align: right;
+}
+
+table tr td {
+    width: 28%;
+    vertical-align: top;
+}
+
+table tr input {
+    margin-top: 7px;
+    margin-right: 7px;
+}
